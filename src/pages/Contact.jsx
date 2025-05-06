@@ -18,6 +18,13 @@ const Contact = () => {
             <button><Link to="/about">Voltar</Link></button>
             <Link to="/">Próximo</Link>
           </div>
+          <h3>Equipe:</h3>
+          <ul>
+            <li><Link to={"/equipecontato/1/gabriela"}>Gabriela</Link></li>
+            <li><Link to={"/equipecontato/2/gustavo"}>Gustavo</Link></li>
+            <li><Link to={"/equipecontato/3/victor"}>Victor</Link></li>
+            <li><Link to={"/equipecontato/4/geovana"}>Geovana</Link></li>
+          </ul>
         </>
     );
 }
